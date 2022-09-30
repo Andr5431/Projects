@@ -1,0 +1,45 @@
+body{
+    background: url('./images/background.jpg');
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #F5F5DC;
+    border: 1px solid #D3D3D3;
+}
+.link:hover{
+    color: #DAA520;
+}
+.link:active{
+    color: #00FF00;
+}
+
+.image_center{
+    display: block;
+    margin: 0 auto;
+}
+.image_right{
+    text-align: right;
+
+}
+.head_center{
+    text-align: center;
+}
+.head_right{
+    text-align: right;
+}
+.bottom{
+    margin-bottom: -25px;
+}
+
+.table{
+    border: 5px solid black;
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.table td{
+    border: 5px solid black; 
+}
