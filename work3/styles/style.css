@@ -1,0 +1,259 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background: url(../images/tree.jpeg) round;
+    background-attachment: fixed;
+}
+.wrapper {
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 245, 238, 0);
+    
+} 
+.conteiner_1{
+    background: url('../images/фонове\ зображення.png');
+    border-radius: 3%;
+    background-repeat: round;
+    background-position: 0 0;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+
+}
+.vertical_flag >img {
+    height: 200px;
+    width: 20px;
+    margin: 120px 40px 40px 70px;
+
+}
+.text {
+    height: 250px;
+    width: 700px;
+    margin-top: 90px;
+    line-height: 50px;
+    margin-left: -25px;
+
+
+}
+.text > p {
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFFFFF;
+    
+}
+.header_1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
+
+.header_2{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #f5f5dc;
+
+}
+.header_3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    color: #f5f5dc;
+
+}
+.header_4{
+
+}
+.blue{
+    color: rgb(62, 69, 232);
+
+} 
+.yellow{
+    color: rgb(232, 194, 62);
+
+}
+.horizontal_flag{
+    margin-bottom: 30px;
+
+
+} 
+.horizontal_flag > img {
+    width: 550px;
+
+}
+.three_blocks{
+    display: flex;
+    justify-content: space-around;
+}
+.block_1, .block_2, .block_3{
+    border: 3px solid #0D095F;
+    border-radius: 7%;
+    width: 300px;
+}
+.three_blocks img{
+    
+    max-width: 100%;
+  
+}
+.block_1:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+.block_2:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+.block_3:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+.block_1{
+    box-shadow: -5px 5px 16px 2px #0072DB ;
+}
+.block_2{
+    box-shadow: 0px 5px 16px 1px #0072DB;
+}
+.block_3{
+    box-shadow: 5px 5px 16px 2px #0072DB;
+}
+h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0072DB;
+}
+.block_1, .block_2, .block_3 {
+    height: 400px;
+    background-color: beige;
+}
+.text_1{
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.text_1 > p {
+    color: #FF9900;
+}
+.header_3{
+    width: 370px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #1400FF;
+    padding-bottom: 15px;
+}
+.conteiner_3{
+    margin-top: 40px;
+}
+.ukraine_foto{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ukraine_foto img{
+    text-align: center;
+}
+.go{
+    margin: 0 auto;
+    width: 300px;
+    height: 55px;
+    background-color: #1400FF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.go:hover{
+    color: #bc2a8d;
+    box-shadow: 0px 0px 35px #1400FF;
+}
+.go_1 > a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: ;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 800;
+}
+.go_1 > a:hover{
+    color: #bc2a8d;
+    transition: 0.4s;
+} 
+.footer{
+    background: linear-gradient(180deg, #013235 0%, #0D0661 100%);
+    margin-top: 40px;
+}
+.header_4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.header_4 a {
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.gmail{
+    text-align: center;
+    margin-top: 5px;
+}
+.gmail a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.telefone{
+    text-align: center;
+    margin-top: 5px;
+}
+.telefone a {
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.icons > div {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.icons {
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+.icon_1 img{
+    width: 25px;
+    height: 25px;
+}
+.icon_1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    line-height: 55px;
+    transition: all 0.4s;
+}
+.instagram:hover {
+    border-color: #dd4b39;
+    box-shadow: 0px 0px 30px #dd4b39;
+}
+.facebook:hover {
+    border-color: #3d5afe;
+    box-shadow: 0px 0px 30px #3d5afe;
+}
+.youtube:hover {
+    border-color: #4dc247;
+    box-shadow: 0px 0px 30px #4dc247;
+}
