@@ -115,6 +115,9 @@ body{
     transform: scale(1.2);
     transition: all 0.8s;
 }
+.block_1, .block_2, .block_3{
+    transition: all 0.8s;
+}
 .block_1{
     box-shadow: -5px 5px 16px 2px #0072DB ;
 }
