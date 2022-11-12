@@ -1,0 +1,341 @@
+@import url(./animation.css);
+:root{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+header .logo{
+    align-self: stretch;
+}
+header .logo img{
+    height: 100%;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-right: 3rem;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/*screen 1*/
+.screen{
+    min-height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box{
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+}
+.box > div{
+    width: 23%;
+    margin: 0 auto;
+}
+.box img{
+    display: inline-block;
+    width: 100%;
+}
+.left-one img, .right-one img{
+    height: 100%;
+}
+.left-one, .right-one{
+    height: 60%;
+    align-self: center;
+
+}
+.left-two, .right-two{
+    height: 80%;
+    align-self: center;
+}
+.left-two, .left-one{
+    transform: translateX(-100vw);
+}
+.left-two{
+    animation: img-show-left 1s linear 1 forwards;
+}
+.right-two{
+    animation: img-show-right 1s linear 1 forwards;
+}
+.left-one{
+    animation: img-show-left 2s linear 1 forwards;
+}
+.right-one{
+    animation: img-show-right 2s linear 1 forwards;
+}
+.right-two, .right-one{
+    transform: translateX(100vw);
+}
+.left-two img, .right-two img{
+    height: 50%;
+}
+.left-two img:first-child{
+    margin-bottom: 2rem;
+}
+.right-two img:first-child{
+    margin-bottom: 2rem;
+}
+
+/*screen2*/
+.services{
+    display: flex;
+}
+.services .left{
+    width: 60%;
+}
+.services .right{
+    width: 40%;
+}
+/* .right{
+    width: 50vw;
+} */
+.services{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+.right img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.services .left{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.services .left > div{
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.services .left img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.services .left p{
+    /* height: 10%; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.one{
+    top: 0;
+    left: 0;
+    animation: c1 15s linear infinite;
+}
+.two{
+    top: 0;
+    left: 50%;
+    animation: c2 15s linear infinite;
+}
+.three{
+    top: 50%;
+    left: 0;
+    animation: c3 15s linear infinite;
+}
+.four{
+    top: 50%;
+    left: 50%;
+    animation: c4 15s linear infinite;
+}
+/*screen3*/
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 70vh;
+}
+.teams > div{
+    cursor: pointer;
+    width: 20%;
+    height: 90%;
+    border-radius: 40px;
+    position: relative;
+}
+.teams:hover > div {
+    filter: brightness(.5);
+}
+.teams > div:hover{
+    filter: none;
+}
+.teams .name{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(163, 83, 10, 0.7);
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    overflow: hidden;
+    bottom: 0;
+    color: #fff;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.teams > div:hover .name{
+    height: 20%;
+}
+
+.meredith{
+    background: url(../images/team1.png) 0 0/cover no-repeat;
+}
+.jason{
+    background: url(../images/team2.png) 0 0/cover no-repeat;
+}
+.ryan{
+    background: url(../images/team3.png) 0 0/cover no-repeat;
+}
+.james{
+    background: url(../images/team4.png) 0 0/cover no-repeat;
+}
+
+/*screen4*/
+
+.screen4{
+    height: 87vh;
+    width: 86vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 54vh;
+    margin-top: 3rem;
+}
+.title{
+    text-align: center;
+}
+.map{
+    width: 40%;
+    height: 100%;
+}
+.map > iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.first-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+}
+.input form{
+    width: 96%;
+    background-color: #E5E5E5;
+    padding: 2rem;
+}
+.input2{
+    display: flex;
+    justify-content: space-between;
+}
+.input2 > div{
+    width: 45%;
+    box-sizing: border-box;
+}
+.input2 input{
+    display: block;
+    width: 100%;
+    height: 3rem;
+}
+textarea{
+    display: block;
+    width: 100%;
+}
+.textarea{
+    width: 100%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.screen4 a{
+    text-decoration: none;
+    color: #000;
+}
+.screen4 ul{
+    list-style: none;
+}
+.three-blocks{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    margin-bottom: 1rem;
+}
+.three-blocks > div{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column div:nth-child(2){
+    margin-bottom: 1.5rem;
+}
+.items li:nth-child(1){
+    list-style-image: url(../images/instagram.svg);
+}
+.items li:nth-child(2){
+    list-style-image: url(../images/facebook.svg);
+}
+.items li:nth-child(3){
+    list-style-image: url(../images/Twitter.svg);
+}
+.items{
+    padding-bottom: 1rem;
+}
