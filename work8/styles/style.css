@@ -12,6 +12,9 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 4;
 }
 header .logo{
     align-self: stretch;
@@ -95,6 +98,7 @@ header .logo img{
 }
 
 /*screen2*/
+
 .services{
     display: flex;
 }
@@ -104,9 +108,6 @@ header .logo img{
 .services .right{
     width: 40%;
 }
-/* .right{
-    width: 50vw;
-} */
 .services{
     height: 90vh;
     display: flex;
@@ -142,7 +143,6 @@ header .logo img{
     border-radius: 50%;
 }
 .services .left p{
-    /* height: 10%; */
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
@@ -168,7 +168,15 @@ header .logo img{
     left: 50%;
     animation: c4 15s linear infinite;
 }
+
 /*screen3*/
+
+.screen3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .title{
     font-size: 4rem;
@@ -181,7 +189,7 @@ header .logo img{
 .teams{
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 70vh;
 }
 .teams > div{
@@ -215,6 +223,7 @@ header .logo img{
 }
 .teams > div:hover .name{
     height: 20%;
+    transition: all 1s;
 }
 
 .meredith{
@@ -233,8 +242,8 @@ header .logo img{
 /*screen4*/
 
 .screen4{
-    height: 87vh;
-    width: 86vw;
+    height: 90vh;
+    width: 88vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -254,12 +263,13 @@ header .logo img{
 }
 .map{
     width: 40%;
-    height: 100%;
+    height: 90%;
+    align-self: flex-end;
 }
 .map > iframe{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 85%;
 }
 .first-block{
     display: flex;
